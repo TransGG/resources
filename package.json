@@ -1,0 +1,17 @@
+{
+    "name": "resources",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "rules:transplace": "bun src/rules/transplace.ts"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "discord.js": "^14.27.0"
+    }
+}
