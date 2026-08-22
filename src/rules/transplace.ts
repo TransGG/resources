@@ -425,7 +425,7 @@ await templateRules({
                     ),
                     screenreaderTitle: "Several threads are available as exceptions to this rule.",
                     screenreaderDescription: TEMPLATE_RULE_12_SUBSECTION_B_DESCRIPTION(
-                        "A list of regional and language threads can be found in the general channel. Links are provided in the details for this rule on Discord or you can search the thread list in the general channel. Here is a list of threads and fluent moderators if applicable:\n- Balkans (languages spoken in that region are permitted here)\n- Chinese (all dialects), moderated by hyperneutrino\n- Dutch, moderated by catgirlemma, leaf.moe, and we.are.uto\n- French, moderated by pat.5621.me and depresedbard\n- German, moderated by gracepanther, leaf.moe, and we.are.uto\n- Italian, moderated by queerneko\n- Japanese\n- Spanish, moderated by pocketmusic and queerneko",
+                        "A list of regional and language threads can be found in the general channel. Links are provided in the details for this rule on Discord or you can search the thread list in the general channel. Here is a list of threads and fluent moderators if applicable:\n- Balkans (languages spoken in that region are permitted here)\n- Chinese (all dialects), moderated by hyperneutrino\n- Dutch, moderated by catgirlemma, leaf.moe, and we.are.uto\n- French, moderated by pat.5621.me and depresedbard\n- German, moderated by gracepanther, leaf.moe, and we.are.uto\n- Italian, moderated by queerneko\n- Japanese\n- Spanish, moderated by pocketmusic and queerneko\n",
                     ),
                 },
                 {

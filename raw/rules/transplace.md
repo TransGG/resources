@@ -201,6 +201,7 @@ Language and accessibility
 - Italian, moderated by queerneko
 - Japanese
 - Spanish, moderated by pocketmusic and queerneko
+
 If there's a language you want to see here, let us know. The threads with no listed moderators were opened by popular request without any staff fluent in the language. As such, any reported issues in these threads will result in the closure of the thread.
 
 **Item C: No spelling with lookalike symbols.** Using symbols that look like letters in place of those letters to spell things for decorative purposes is not allowed, both in display names and in messages. These can be difficult for people to read, are unable to be read by people whose systems do not have those symbols, and are inaccessible to people using screenreaders or text-to-speech. Decorative symbols such as brackets, stars, and emoji are allowed in display names. The rough guideline is that text-to-speech should read out your name in a way that makes sense and allows someone to distinguish your messages without needing to look at your name.
