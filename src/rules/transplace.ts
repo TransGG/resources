@@ -21,6 +21,9 @@ const TEMPLATE_RULE_11_DESCRIPTION = (selfieChannelText: string) =>
 const TEMPLATE_RULE_11_SUBSECTION_C_DESCRIPTION = (selfieChannelText: string) =>
     `Selfies are restricted to ${selfieChannelText} (access is granted upon meeting server activity requirements). This is both for the safety of those posting selfies and to discourage publicly posting transition progress, which has the potential to amplify others' dysphoria.`;
 
+const TEMPLATE_RULE_12_SUBSECTION_B_DESCRIPTION = (threadList: string) =>
+    `${threadList}\nIf there's a language you want to see here, let us know. The threads with no listed moderators were opened by popular request without any staff fluent in the language. As such, any reported issues in these threads will result in the closure of the thread.`;
+
 const TEMPLATE_CONTACTING_STAFF = (contactStaffChannelText: string, howToReport: string) =>
     `You can open tickets and submit anonymous reports via ${contactStaffChannelText} to talk to staff privately.\n\nPlease be the bigger person. If you see someone trying to start a fight, don't fight back. Instead, contact us in a ticket or report it. Don't feed trolls or your own trauma responses.\n\nTo report a user or message, ${howToReport}. This reports the user or message to us and pings active moderators, which helps us best handle the situation as quickly as possible. This does not report the message to Discord.`;
 
@@ -216,7 +219,7 @@ await templateRules({
                 {
                     title: "Assume good faith and don't assume malice.",
                     description:
-                        "keep your own biases in mind and try not to assume people are engaging in bad faith or being hostile.",
+                        "Keep your own biases in mind and try not to assume people are engaging in bad faith or being hostile.",
                 },
                 {
                     title: "Understand neurodivergence and trauma.",
@@ -417,11 +420,13 @@ await templateRules({
                 },
                 {
                     title: "The following threads are exceptions:",
-                    description:
-                        "- Balkans: <#1532845500984987749> (relevant languages allowed)\n- 中文 (Chinese): <#1532845500984987749>\n- Nederlands (Dutch): <#1532845500984987749>\n- Français (French): <#1396616606720856284>\n- Deutsch (German): <#1116049729931984956>\n- Italiano (Italian): <#1532845500984987749>\n- 日本語 (Japanese): <#1255283747746742395>\n- Español (Spanish): <#1532845500984987749>",
+                    description: TEMPLATE_RULE_12_SUBSECTION_B_DESCRIPTION(
+                        "- Balkans: <#1532845500984987749> (relevant languages allowed)\n- 中文 (Chinese): <#1532845500984987749> (moderator: <@251082987360223233>)\n- Nederlands (Dutch): <#1532845500984987749> (moderators: <@226675003662401536>, <@659488296820408355>, <@430929498410844160>)\n- Français (French): <#1396616606720856284> (moderators: <@380564645255053315>, <@907713974563385364>)\n- Deutsch (German): <#1116049729931984956> (moderators: <@185044357701828608>, <@659488296820408355>, <@430929498410844160>)\n- Italiana (Italian): <#1532845500984987749> (moderator: <@395403552341753869>)\n- 日本語 (Japanese): <#1255283747746742395>\n- Español (Spanish): <#1532845500984987749> (moderators: <@244726371568451584>, <@395403552341753869>)",
+                    ),
                     screenreaderTitle: "Several threads are available as exceptions to this rule.",
-                    screenreaderDescription:
-                        "A list of regional and language threads can be found in the general channel. Links are provided in the details for this rule on Discord or you can search the thread list in the general channel. There is a thread for the Balkans and languages spoken in that region are permitted there. The available language threads are Chinese (all dialects), Dutch, French, German, Italian, Japanese, and Spanish, all of which can be found using their native name in the thread list.",
+                    screenreaderDescription: TEMPLATE_RULE_12_SUBSECTION_B_DESCRIPTION(
+                        "A list of regional and language threads can be found in the general channel. Links are provided in the details for this rule on Discord or you can search the thread list in the general channel. Here is a list of threads and fluent moderators if applicable:\n- Balkans (languages spoken in that region are permitted here)\n- Chinese (all dialects), moderated by hyperneutrino\n- Dutch, moderated by catgirlemma, leaf.moe, and we.are.uto\n- French, moderated by pat.5621.me and depresedbard\n- German, moderated by gracepanther, leaf.moe, and we.are.uto\n- Italian, moderated by queerneko\n- Japanese\n- Spanish, moderated by pocketmusic and queerneko",
+                    ),
                 },
                 {
                     title: "No spelling with lookalike symbols.",

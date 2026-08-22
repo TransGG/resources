@@ -98,7 +98,7 @@ Language and accessibility
 3. Talking about how to pirate content (including emulating games when it violates the publisher's Terms of Service), and
 4. Any other conversations that Terms of Service or international law may prohibit.
 
-**Item C: Avoid political conversation.** "This is a safe space for people to get away from real-life situations. There are other communities for political discussion; this is not the place for political discussion or debate. You can read more about this policy in the politics channel."
+**Item C: Avoid political conversation.** This is a safe space for people to get away from real-life situations. There are other communities for political discussion; this is not the place for political discussion or debate. You can read more about this policy in the politics channel.
 
 **Item D: Avoid religious discussion.** We are committed to being inclusive of everyone regardless of traits such as religion, but be considerate of others' beliefs and viewpoints as well as potential religious trauma.
 
@@ -126,7 +126,7 @@ Language and accessibility
 
 **Item A: No discrimination or harassment.** Regardless of your past experiences with people, don't discriminate against people based on their characteristics, harass people over past grievances, witch-hunt people, or bring outside drama into this server. You can report people if you believe they made the community unsafe.
 
-**Item B: Assume good faith and don't assume malice.** keep your own biases in mind and try not to assume people are engaging in bad faith or being hostile.
+**Item B: Assume good faith and don't assume malice.** Keep your own biases in mind and try not to assume people are engaging in bad faith or being hostile.
 
 **Item C: Understand neurodivergence and trauma.** Everyone has different ways of relating to each other and engaging with topics due to neurodiverge and/or trauma.
 
@@ -192,7 +192,16 @@ Language and accessibility
 
 **Item A: Keep conversations in English.** This is an English community, so to avoid excluding people from conversation, do not hold conversations in other languages. We understand that not everyone speaks English, but we are an English community and there are other communities for other languages.
 
-**Item B: Several threads are available as exceptions to this rule.** A list of regional and language threads can be found in the general channel. Links are provided in the details for this rule on Discord or you can search the thread list in the general channel. There is a thread for the Balkans and languages spoken in that region are permitted there. The available language threads are Chinese (all dialects), Dutch, French, German, Italian, Japanese, and Spanish, all of which can be found using their native name in the thread list.
+**Item B: Several threads are available as exceptions to this rule.** A list of regional and language threads can be found in the general channel. Links are provided in the details for this rule on Discord or you can search the thread list in the general channel. Here is a list of threads and fluent moderators if applicable:
+- Balkans (languages spoken in that region are permitted here)
+- Chinese (all dialects), moderated by hyperneutrino
+- Dutch, moderated by catgirlemma, leaf.moe, and we.are.uto
+- French, moderated by pat.5621.me and depresedbard
+- German, moderated by gracepanther, leaf.moe, and we.are.uto
+- Italian, moderated by queerneko
+- Japanese
+- Spanish, moderated by pocketmusic and queerneko
+If there's a language you want to see here, let us know. The threads with no listed moderators were opened by popular request without any staff fluent in the language. As such, any reported issues in these threads will result in the closure of the thread.
 
 **Item C: No spelling with lookalike symbols.** Using symbols that look like letters in place of those letters to spell things for decorative purposes is not allowed, both in display names and in messages. These can be difficult for people to read, are unable to be read by people whose systems do not have those symbols, and are inaccessible to people using screenreaders or text-to-speech. Decorative symbols such as brackets, stars, and emoji are allowed in display names. The rough guideline is that text-to-speech should read out your name in a way that makes sense and allows someone to distinguish your messages without needing to look at your name.
 

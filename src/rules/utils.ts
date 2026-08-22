@@ -17,18 +17,15 @@ export async function getClientAndWebhookAndSweep(variableName: string) {
     const url = Bun.env[`WEBHOOK_${variableName}`];
     if (!url) throw new Error(`Set environment variable WEBHOOK_${variableName}.`);
 
-    const webhookClient = new WebhookClient({ url });
+    const webhook = new WebhookClient({ url }, { allowedMentions: { parse: [] } });
 
     const client = new Client({ intents: GatewayIntentBits.Guilds });
     const promise = new Promise<Client<true>>((res) => client.once(Events.ClientReady, res));
     await client.login(token);
     const bot = await promise;
 
-    const webhook = await bot.fetchWebhook(webhookClient.id);
-    if (!webhook) throw new Error("Webhook could not be fetched.");
-
-    const channel = webhook.channel;
-    if (!channel) throw new Error("Webhook is not in a channel.");
+    const { channel } = (await bot.fetchWebhook(webhook.id)) ?? {};
+    if (!channel) throw new Error("Webhook could not be fetched or it is not in a channel.");
     if (channel.type !== ChannelType.GuildText) throw new Error("Webhook is not in a guild text channel.");
 
     while (channel.isTextBased()) {
@@ -170,7 +167,7 @@ ${rules.map((rule, index) => `### Rule ${index + 1}: ${rule.screenreaderTitle ??
         if (!subsections?.length) continue;
 
         const thread = await channel.threads.create({
-            name: `Rule ${index} Details (${threadName ?? title})`,
+            name: `Rule ${index + 1} Details (${threadName ?? title})`,
             type: ChannelType.PublicThread,
         });
 
