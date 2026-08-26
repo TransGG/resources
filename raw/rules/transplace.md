@@ -216,7 +216,7 @@ By participating in this server, you agree to follow Discord's Terms of Service,
 
 You can open tickets and submit anonymous reports via the contact-staff channel to talk to staff privately.
 
-Please be the bigger person. If you see someone trying to start a fight, don't fight back. Instead, contact us in a ticket or report it. Don't feed trolls or your own trauma responses.
+Please be the bigger person. If you see someone trying to start a fight, don't fight back. Instead, contact us in a ticket or report it. *Don't feed trolls or your own trauma responses.*
 
 To report a user or message, open the context menu on the user or message by right clicking on desktop or long pressing on mobile, then selecting Apps, then Badeline, then Report User or Report Message.. This reports the user or message to us and pings active moderators, which helps us best handle the situation as quickly as possible. This does not report the message to Discord.
 
