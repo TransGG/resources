@@ -78,7 +78,7 @@ await templateRules({
             ],
         },
         {
-            title: "Keep things appropriate and safe for yourself and others.",
+            title: "Keep things appropriate and safe.",
             threadName: "Keep things age-appropriate",
             description:
                 "This is a 13+ community. No NSFW, roleplaying, flirting, or partner-seeking. Be mindful of your internet safety.",
@@ -125,7 +125,7 @@ await templateRules({
             ],
         },
         {
-            title: "Avoid sensitive and prohibited topics.",
+            title: "Avoid sensitive and controversial topics and discourse.",
             threadName: "Restricted topics",
             description:
                 "Avoid venting, politics, discussing substance use, controversial topics, phrases that target those with mental health challenges, links to X/Twitter, Meta, and TikTok, AI-generated content, and topics prohibited by Discord's Terms of Service.",
@@ -133,7 +133,7 @@ await templateRules({
                 {
                     title: "Legal substances:",
                     description:
-                        "Brief mentions of legal substances like alcohol will be considered acceptable in context, but refrain from engaging in conversations focused on substance use or bringing it up without context.",
+                        "Brief mentions of legal substances like alcohol are acceptable in context, but refrain from engaging in conversations focused on substance use or bringing it up without context.",
                 },
                 {
                     title: "Comply with Terms of Service and international law",

@@ -12,11 +12,11 @@ This document is made to be accessible to a screenreader, so people not using sc
 
 No hate speech (e.g. slurs, gatekeeping). Don't share hateful media or images, even to criticize them.
 
-### Rule 2: Keep things appropriate and safe for yourself and others.
+### Rule 2: Keep things appropriate and safe.
 
 This is a 13+ community. No NSFW, roleplaying, flirting, or partner-seeking. Be mindful of your internet safety.
 
-### Rule 3: Avoid sensitive and prohibited topics.
+### Rule 3: Avoid sensitive and controversial topics and discourse.
 
 Avoid venting, politics, discussing substance use, controversial topics, phrases that target those with mental health challenges, links to X/Twitter, Meta, and TikTok, AI-generated content, and topics prohibited by Discord's Terms of Service.
 
@@ -72,7 +72,7 @@ Language and accessibility
 
 **Item F: Hate and bigotry are not funny.** Claiming bigotry was "just a joke" will not be accepted as a justification for hateful rhetoric.
 
-### Rule 2: Keep things appropriate and safe for yourself and others.
+### Rule 2: Keep things appropriate and safe.
 
 **Item A: No NSFW.** This is a 13+ community, so everything must be appropriate for minors. Things like sexual content and gory or disturbing content are not allowed.
 
@@ -88,9 +88,9 @@ Language and accessibility
 
 **Item G: Be mindful of internet safety.** This is more of a guideline than a hard rule, but keep in mind that this is a large public community. Be careful sharing information about yourself and be aware of people attempting to manipulate you into giving them personal information. Do not hesitate to inform us if something feels off.
 
-### Rule 3: Avoid sensitive and prohibited topics.
+### Rule 3: Avoid sensitive and controversial topics and discourse.
 
-**Item A: Legal substances:** Brief mentions of legal substances like alcohol will be considered acceptable in context, but refrain from engaging in conversations focused on substance use or bringing it up without context.
+**Item A: Legal substances:** Brief mentions of legal substances like alcohol are acceptable in context, but refrain from engaging in conversations focused on substance use or bringing it up without context.
 
 **Item B: Comply with Terms of Service and international law** For the safety of the server, we must enforce Discord's Terms of Service. The following are disallowed:
 1. Distributing pirated content (by sharing links, streaming in voice channels, etc.),
