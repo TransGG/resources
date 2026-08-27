@@ -198,11 +198,6 @@ ${rules.map((rule, index) => `### Rule ${index + 1}: ${rule.screenreaderTitle ??
         index++;
     }
 
-    console.log(
-        `## Rules\n${rules.map(({ title, description }, index) => `${index + 1}. **${title}** ${description}${threads.has(index) ? ` **[Read More >>>](${threads.get(index)})**` : ""}`).join("\n")}`
-            .length,
-    );
-
     await webhook.send({
         content: `A plaintext version of these rules, adapted for a better screenreader/text-to-speech experience, is available [here](<https://github.com/TransGG/resources/blob/main/${plaintextPath}>).`,
     });
