@@ -78,7 +78,7 @@ Language and accessibility
 
 **Item B: Sexual versus medical discussion:** This is a trans community, so we acknowledge the relevance of conversation about things like bottom surgery. As a general guideline, talking about surgeries or procedures in a medical and mature manner is okay, but don't bring sexual topics into the discussion. An example is included at the end of this document as it mentions NSFW topics that are not allowed without graphic detail.
 
-**Item C: Mature channels:** NSFW is not allowed in mature channels either. These channels are intended for adults to have conversations about more mature topics and we're more lenient on things such as legal substance use, but it is still subject to our server rules otherwise.
+**Item C: Mature channels:** NSFW is not allowed in mature channels either. These channels are intended for adults to have conversations about more mature topics and we're more lenient on things such as legal substance use, but they are still subject to our server rules otherwise.
 
 **Item D: No roleplaying or flirting.** A simple "I love you" is fine, but flirting, between partners or otherwise, should be kept to private conversations. Things like calling people "good boy" or "good girl", calling people "cute" or "adorable" to fluster them, and similar interactions may be disallowed.
 
@@ -104,7 +104,7 @@ Language and accessibility
 
 **Item E: Avoid venting.** Venting and doomposting can be challenging and uncomfortable for others to witness, and the members and staff here are not equipped to provide mental health support or advice. There are other communities that allow venting; this is not the place. You can read more about this policy in the venting channel.
 
-**Item F: Avoid conversations about controversial or fiery topics.** This includes, but is not limited to, the ethics and usage of generative artificial intelligence, cryptocurrency and Web3, and controversial figures. These topics can spark debates that put everyone in a bad mood and dampen the server environment.
+**Item F: Avoid conversations about controversial or fiery topics.** This includes, but is not limited to, the ethics and usage of generative artificial intelligence, cryptocurrency, and controversial figures. These topics can spark debates that put everyone in a bad mood and dampen the server environment.
 
 **Item G: Avoid system discourse (syscourse) and discussion of system origins.** There are differing viewpoints about system origins, specifically endogenic or non-traumagenic systems. To keep this as safe of a space as possible for all systems, we do not allow discussion of system origins or their validity or other discourse around plurality.
 

@@ -100,7 +100,7 @@ await templateRules({
                 {
                     title: "Mature channels:",
                     description:
-                        "NSFW is not allowed in mature channels either. These channels are intended for adults to have conversations about more mature topics and we're more lenient on things such as legal substance use, but it is still subject to our server rules otherwise.",
+                        "NSFW is not allowed in mature channels either. These channels are intended for adults to have conversations about more mature topics and we're more lenient on things such as legal substance use, but they are still subject to our server rules otherwise.",
                 },
                 {
                     title: "No roleplaying or flirting.",
@@ -158,7 +158,7 @@ await templateRules({
                 {
                     title: "Avoid conversations about controversial or fiery topics.",
                     description:
-                        "This includes, but is not limited to, the ethics and usage of generative artificial intelligence, cryptocurrency and Web3, and controversial figures. These topics can spark debates that put everyone in a bad mood and dampen the server environment.",
+                        "This includes, but is not limited to, the ethics and usage of generative artificial intelligence, cryptocurrency, and controversial figures. These topics can spark debates that put everyone in a bad mood and dampen the server environment.",
                 },
                 {
                     title: "Avoid system discourse (syscourse) and discussion of system origins.",
