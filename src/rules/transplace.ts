@@ -300,7 +300,7 @@ await templateRules({
                 {
                     title: "Your triggers are also your own responsibility.",
                     description:
-                        "In such a diverse community, it's impossible to avoid every possible trigger. If something is triggering you, but isn't inherently bad, consider politely asking for a topic change (either by yourself or using `/tag please change topic`), contacting a moderator via a ticket or DMs, or stepping away for a bit.",
+                        "In such a diverse community, it's impossible to avoid every possible trigger. If something is triggering you, but isn't inherently bad, consider politely asking for a topic change (either by yourself or using `/tag Change Topic`), contacting a moderator via a ticket or DMs, or stepping away for a bit.",
                 },
                 {
                     title: "Report violations of the above.",

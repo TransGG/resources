@@ -152,7 +152,7 @@ Language and accessibility
 
 **Item C: Never mention the following topics.** This list is provided at the end of the document.
 
-**Item D: Your triggers are also your own responsibility.** In such a diverse community, it's impossible to avoid every possible trigger. If something is triggering you, but isn't inherently bad, consider politely asking for a topic change (either by yourself or using `/tag please change topic`), contacting a moderator via a ticket or DMs, or stepping away for a bit.
+**Item D: Your triggers are also your own responsibility.** In such a diverse community, it's impossible to avoid every possible trigger. If something is triggering you, but isn't inherently bad, consider politely asking for a topic change (either by yourself or using `/tag Change Topic`), contacting a moderator via a ticket or DMs, or stepping away for a bit.
 
 **Item E: Report violations of the above.** To keep everyone safe and comfortable, report any messages that include triggering topics without adequate warning or include banned triggers (see the main rules channel for instructions for reporting messages).
 
