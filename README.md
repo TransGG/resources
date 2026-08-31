@@ -4,10 +4,22 @@ This is a repository for holding static resources such as the rules messages. Th
 
 ## Rules
 
-You will need to set two environment variables. If `.env` doesn't exist yet, create it in the root folder. This is a set of key-value pairs in the format `KEY=VALUE`, one per line. `TOKEN_RULES_POSTER` should be the token of a bot that can create and delete threads, delete messages, and manage webhooks in the rules channel.
+### Setup Instructions
 
-Before updating, call `git pull` to make sure you have the most up-to-date version locally.
+To clone this repository, you need a way to run Git. Follow the instructions [here](https://git-scm.com/install/) if you don't know how to do this. You'll also need Bun; follow the instructions [here](http://bun.sh/).
 
-To run an update, set the relevant webhook variable and run `bun rules:<server>`. This will automatically update the Markdown file in `raw/rules/`. The variable name is generally `WEBHOOK_RULES_<SERVER>` (e.g. `TRANSPLACE`) and should be the webhook used to post the rules.
+To clone, open a terminal (using Git Bash unless you know what you're doing) and go to the folder you want to place this repository in (you can navigate using `cd folder_name`). Then, call `git clone https://github.com/TransGG/resources.git`. You'll want an editor such as VSCode, but Notepad _will_ work.
 
-After updating, you should push. You can just do `git add --all && git commit -m "<descriptive message>" && git push`.
+Create a `.env` file in the `resources/` folder. You'll need a bot that can create/delete threads, delete messages, and manage webhooks in your rules channel. Once you have its token, write `TOKEN_RULES_POSTER=` followed by the token in `.env`.
+
+You'll also need a webhook for each server you want to update. Once you have the webhooks, set `WEBHOOK_RULES_<SERVER>=<WEBHOOK>` (no `<>` in the file) in `.env`, one line per assignment. The server name is generally its common name with no punctuation and no spacing, fully uppercase, e.g. `TRANSPLACE`, `ENBYPLACE`, `TRANSONANCE`, etc.
+
+### Update Instructions
+
+Before updating, call `git pull` (using Git Bash) within the `resources/` folder. to make sure you have the most up-to-date version locally.
+
+Make your changes in `src/rules/<server>.ts`.
+
+Run `bun rules:<server>` (without the `<>`). The server name should be the same as for the webhook but lowercase. This will also update the Markdown file in `raw/rules/`, which you should not edit manually. This should also update the rules in the server using the webhook.
+
+Finally, run `git add --all && git commit -m "<descriptive message>" && git push`.
