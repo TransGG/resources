@@ -364,12 +364,17 @@ await templateRules({
             title: "No spam or self-promotion.",
             threadName: "No spam or self-promotion",
             description:
-                "Do not promote server invites or advertise, including in DMs. Contact us to request a partnership or an exemption.",
+                "Do not promote server invites, advertise, or solicit, including in DMs. Contact us to request a partnership or an exemption.",
             subsections: [
                 {
                     title: "No unapproved advertisements.",
                     description:
                         "You can open a ticket to request approval for an advertisement, but we don't want this server to be used for people to advertise themselves or their servers.",
+                },
+                {
+                    title: "No surveys or soliciting information",
+                    description:
+                        "We do not allow posting of surveys (for research, personal, or other purposes) or solicitation of our members' information in any form.",
                 },
                 {
                     title: "Partnership requirements:",

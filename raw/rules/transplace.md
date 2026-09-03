@@ -46,7 +46,7 @@ Avoid escalating disagreements to arguments. Avoid letting conversations become 
 
 ### Rule 10: No spam or self-promotion.
 
-Do not promote server invites or advertise, including in DMs. Contact us to request a partnership or an exemption.
+Do not promote server invites, advertise, or solicit, including in DMs. Contact us to request a partnership or an exemption.
 
 ### Rule 11: Stay on-topic and only post selfies in the selfies channel.
 
@@ -178,7 +178,9 @@ Language and accessibility
 
 **Item A: No unapproved advertisements.** You can open a ticket to request approval for an advertisement, but we don't want this server to be used for people to advertise themselves or their servers.
 
-**Item B: Partnership requirements:** We review partnerships case-by-case, but generally you must demonstrate that your server offers something that benefits our community's members and we typically ask that servers can show an established community and at least one tenth (10%) of our members. This isn't a hard rule and meeting the numerical guideline doesn't guarantee that we'll accept your request.
+**Item B: No surveys or soliciting information** We do not allow posting of surveys (for research, personal, or other purposes) or solicitation of our members' information in any form.
+
+**Item C: Partnership requirements:** We review partnerships case-by-case, but generally you must demonstrate that your server offers something that benefits our community's members and we typically ask that servers can show an established community and at least one tenth (10%) of our members. This isn't a hard rule and meeting the numerical guideline doesn't guarantee that we'll accept your request.
 
 ### Rule 11: Stay on-topic and only post selfies in the selfies channel.
 
