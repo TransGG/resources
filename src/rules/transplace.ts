@@ -175,6 +175,11 @@ await templateRules({
                     description:
                         "We have decided to disallow links to X/Twitter, Meta (Instagram, Facebook, etc.), and TikTok. Sharing media and screenshots directly is allowed and we will not police what you do in your own time, but we disallow links to these platforms.",
                 },
+                {
+                    title: "AI-generated content is disallowed.",
+                    description:
+                        "We won't police what you do in your own time, but we're committed to human interaction and content within this server.",
+                },
             ],
         },
         {
