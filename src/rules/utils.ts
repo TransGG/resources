@@ -29,8 +29,14 @@ export async function getClientAndWebhookAndSweep(variableName: string) {
     if (channel.type !== ChannelType.GuildText) throw new Error("Webhook is not in a guild text channel.");
 
     while (channel.isTextBased()) {
-        const messages = await channel.bulkDelete(100);
+        const messages = await channel.bulkDelete(100).catch(() => ({ size: 0 }));
         if (messages.size === 0) break;
+    }
+
+    while (channel.isTextBased()) {
+        const message = await channel.messages.fetch({ limit: 1 }).then((collection) => collection.first());
+        if (!message) break;
+        await message.delete();
     }
 
     while ("threads" in channel) {
