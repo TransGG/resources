@@ -202,6 +202,7 @@ Language and accessibility
 - Dutch, moderated by catgirlemma, leaf.moe, and we.are.uto
 - French, moderated by pat.5621.me and depresedbard
 - German, moderated by gracepanther, leaf.moe, and we.are.uto
+- Irish
 - Italian, moderated by queerneko
 - Japanese
 - Spanish, moderated by pocketmusic and queerneko

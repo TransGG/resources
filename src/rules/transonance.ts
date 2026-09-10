@@ -3,12 +3,6 @@ import { templateRules } from "@/rules/utils";
 const TEMPLATE_RULE_2_SUBSECTION_B_DESCRIPTION = (example: string) =>
     `This is a trans community, so we acknowledge the relevance of conversation about things like bottom surgery. As a general guideline, talking about surgeries or procedures in a medical and mature manner is okay, but don't bring sexual topics into the discussion. ${example}`;
 
-const TEMPLATE_RULE_3_SUBSECTION_C_DESCRIPTION = (politicsChannelText: string) =>
-    `This is a safe space for people to get away from real-life situations. There are other communities for political discussion; this is not the place for political discussion or debate. You can read more about this policy in ${politicsChannelText}.`;
-
-const TEMPLATE_RULE_3_SUBSECTION_E_DESCRIPTION = (ventingChannelText: string) =>
-    `Venting and doomposting can be challenging and uncomfortable for others to witness, and the members and staff here are not equipped to provide mental health support or advice. There are other communities that allow venting; this is not the place. You can read more about this policy in ${ventingChannelText}.`;
-
 const TEMPLATE_RULE_7_DESCRIPTION = (triggerWarningInstructions: string) =>
     `Respect others' triggers. ${triggerWarningInstructions} A list of common triggers is included in the details for this rule. Flashy media, excessively loud noises, and similar content must come with adequate warning, including in voice channels. Your triggers are also your responsibility to manage.`;
 
@@ -133,8 +127,8 @@ await templateRules({
                 },
                 {
                     title: "Avoid political conversation.",
-                    description: TEMPLATE_RULE_3_SUBSECTION_C_DESCRIPTION("<#1126163144134361238>"),
-                    screenreaderDescription: TEMPLATE_RULE_3_SUBSECTION_C_DESCRIPTION("the politics channel"),
+                    description:
+                        "This is a safe space for people to get away from real-life situations. There are other communities for political discussion; this is not the place for political discussion or debate.",
                 },
                 {
                     title: "Avoid religious discussion.",
@@ -143,8 +137,8 @@ await templateRules({
                 },
                 {
                     title: "Avoid venting.",
-                    description: TEMPLATE_RULE_3_SUBSECTION_E_DESCRIPTION("<#1126163020620513340>"),
-                    screenreaderDescription: TEMPLATE_RULE_3_SUBSECTION_E_DESCRIPTION("the venting channel"),
+                    description:
+                        "Venting and doomposting can be challenging and uncomfortable for others to witness, and the members and staff here are not equipped to provide mental health support or advice. There are other communities that allow venting; this is not the place.",
                 },
                 {
                     title: "Avoid conversations about controversial or fiery topics.",
@@ -258,7 +252,7 @@ await templateRules({
                 {
                     title: "System tags:",
                     description:
-                        "You must set a system tag to use PluralKit here (the bot itself will enforce this). In <#962018841737719888>, you can use `pk;s systemtag <tag>` to set a global tag or `pk;s servertag <tag>` to set a tag for just this server. Your system tag is up to your preference; common choices include an emoji or a name with which the system identifies.",
+                        "You must set a system tag to use PluralKit here (the bot itself will enforce this). In <#1109986345004302450>, you can use `pk;s systemtag <tag>` to set a global tag or `pk;s servertag <tag>` to set a tag for just this server. Your system tag is up to your preference; common choices include an emoji or a name with which the system identifies.",
                     screenreaderDescription:
                         "You must set a system tag to use PluralKit here (the bot itself will enforce this). In the bot commands channel, you can use the system tag command to set a global tag or the server tag command to set a tag for just this server. Your system tag is up to your preference; common choices include an emoji or a name with which the system identifies. The syntax for these commands are PK semicolon S, space, system tag or server tag as one word, and then your tag. Here's a copy-pastable command: `pk;s systemtag your-tag-here` or `pk;s servertag your-tag-here`.",
                 },
@@ -382,23 +376,10 @@ await templateRules({
         {
             title: "Stay on-topic.",
             threadName: "Stay on-topic",
-            description: "Avoid conversing in media-sharing channels. Respect the audience of clubhouse channels.",
-            subsections: [
-                {
-                    title: "Media channels:",
-                    description:
-                        "Avoid extended discussion in the media-sharing channels <#960920616175800382>, <#962453066446176346>, and <#960920536697929758> so as to not bury the media people are sharing.",
-                    screenreaderDescription:
-                        "Avoid extended discussion in the memes, gallery, and workshop channels. These are media-sharing channels; avoid burying the media people are sharing.",
-                },
-                {
-                    title: "Clubhouse channels:",
-                    description:
-                        "Everyone is welcome to participate in the clubhouse channels <#999165241894109194>, <#999165867625566218>, and <#999167335938150410>, but keep the target audiences in mind. These channels are areas for people with similar experiences and identities to relate and discuss, so avoid taking over others' channel or bringing in topics that alienate the intended audience.",
-                    screenreaderDescription:
-                        "Everyone is welcome to participate in the transmasc treehouse, the transfem forest, and the enby enclave, which are collectively called the clubhouse channels. Keep the target audiences in mind as these channels are areas for people with similar experiences and identities to relate and discuss. Avoid taking over others' channel or bringing in topics that alienate the intended audience.",
-                },
-            ],
+            description:
+                "Avoid extended discussion in <#1109902677107818547> so as to not bury the music people are sharing.",
+            screenreaderDescription:
+                "Avoid extended discussion in the recommendations channel so as to not bury the music people are sharing.",
         },
         {
             title: "English only, and keep things accessible.",
@@ -429,7 +410,7 @@ await templateRules({
         },
         {
             title: "Contacting Staff",
-            description: TEMPLATE_CONTACTING_STAFF("<#995343855069175858>"),
+            description: TEMPLATE_CONTACTING_STAFF("<#1108789589558177812>"),
             screenreaderDescription: TEMPLATE_CONTACTING_STAFF("the contact-staff channel"),
         },
         {
@@ -439,7 +420,7 @@ await templateRules({
         },
         {
             title: "Important Notice",
-            description: TEMPLATE_IMPORTANT_NOTICE("<#1128077003015331840>"),
+            description: TEMPLATE_IMPORTANT_NOTICE("<#1532981546611642498>"),
             screenreaderDescription: TEMPLATE_IMPORTANT_NOTICE("the help-resources channel"),
         },
     ],

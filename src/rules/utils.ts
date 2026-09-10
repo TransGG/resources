@@ -161,9 +161,10 @@ ${rules.map((rule, index) => `### Rule ${index + 1}: ${rule.screenreaderTitle ??
 
     const threads = new Map<number, string>();
 
-    let index = 0;
+    let index = -1;
 
     for (const { title, threadName, subsections } of rules) {
+        index++;
         if (!subsections?.length) continue;
 
         const thread = await channel.threads.create({
@@ -194,8 +195,6 @@ ${rules.map((rule, index) => `### Rule ${index + 1}: ${rule.screenreaderTitle ??
         await thread.setLocked(true);
 
         threads.set(index, thread.url);
-
-        index++;
     }
 
     await webhook.send({

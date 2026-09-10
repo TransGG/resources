@@ -50,7 +50,7 @@ Do not promote server invites, advertise, or solicit, including in DMs. Contact 
 
 ### Rule 11: Stay on-topic.
 
-Avoid conversing in media-sharing channels. Respect the audience of clubhouse channels.
+Avoid extended discussion in the recommendations channel so as to not bury the music people are sharing.
 
 ### Rule 12: English only, and keep things accessible.
 
@@ -98,11 +98,11 @@ Language and accessibility
 3. Talking about how to pirate content (including emulating games when it violates the publisher's Terms of Service), and
 4. Any other conversations that Terms of Service or international law may prohibit.
 
-**Item C: Avoid political conversation.** This is a safe space for people to get away from real-life situations. There are other communities for political discussion; this is not the place for political discussion or debate. You can read more about this policy in the politics channel.
+**Item C: Avoid political conversation.** This is a safe space for people to get away from real-life situations. There are other communities for political discussion; this is not the place for political discussion or debate.
 
 **Item D: Avoid religious discussion.** We are committed to being inclusive of everyone regardless of traits such as religion, but be considerate of others' beliefs and viewpoints as well as potential religious trauma.
 
-**Item E: Avoid venting.** Venting and doomposting can be challenging and uncomfortable for others to witness, and the members and staff here are not equipped to provide mental health support or advice. There are other communities that allow venting; this is not the place. You can read more about this policy in the venting channel.
+**Item E: Avoid venting.** Venting and doomposting can be challenging and uncomfortable for others to witness, and the members and staff here are not equipped to provide mental health support or advice. There are other communities that allow venting; this is not the place.
 
 **Item F: Avoid conversations about controversial or fiery topics.** This includes, but is not limited to, the ethics and usage of generative artificial intelligence, cryptocurrency, and controversial figures. These topics can spark debates that put everyone in a bad mood and dampen the server environment.
 
@@ -183,12 +183,6 @@ Language and accessibility
 **Item B: No surveys or soliciting information** We do not allow posting of surveys (for research, personal, or other purposes) or solicitation of our members' information in any form.
 
 **Item C: Partnership requirements:** We review partnerships case-by-case, but generally you must demonstrate that your server offers something that benefits our community's members and we typically ask that servers can show an established community and at least one tenth (10%) of our members. This isn't a hard rule and meeting the numerical guideline doesn't guarantee that we'll accept your request.
-
-### Rule 11: Stay on-topic.
-
-**Item A: Media channels:** Avoid extended discussion in the memes, gallery, and workshop channels. These are media-sharing channels; avoid burying the media people are sharing.
-
-**Item B: Clubhouse channels:** Everyone is welcome to participate in the transmasc treehouse, the transfem forest, and the enby enclave, which are collectively called the clubhouse channels. Keep the target audiences in mind as these channels are areas for people with similar experiences and identities to relate and discuss. Avoid taking over others' channel or bringing in topics that alienate the intended audience.
 
 ### Rule 12: English only, and keep things accessible.
 
