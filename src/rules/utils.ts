@@ -45,6 +45,18 @@ export async function getClientAndWebhookAndSweep(variableName: string) {
         await Promise.all(threads.threads.map((thread) => thread.delete()));
     }
 
+    while ("threads" in channel) {
+        const threads = await channel.threads.fetchArchived({ type: "private", fetchAll: true, limit: 100 });
+        if (threads.threads.size === 0) break;
+        await Promise.all(threads.threads.map((thread) => thread.delete()));
+    }
+
+    while ("threads" in channel) {
+        const threads = await channel.threads.fetchArchived({ type: "public", fetchAll: true, limit: 100 });
+        if (threads.threads.size === 0) break;
+        await Promise.all(threads.threads.map((thread) => thread.delete()));
+    }
+
     return { client, channel, webhook };
 }
 
