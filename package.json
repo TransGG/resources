@@ -3,7 +3,9 @@
     "type": "module",
     "private": true,
     "scripts": {
-        "rules:transplace": "bun src/rules/transplace.ts"
+        "rules:transplace": "bun src/rules/transplace.ts",
+        "rules:enbyplace": "bun src/rules/enbyplace.ts",
+        "rules:transonance": "bun src/rules/transonance.ts"
     },
     "devDependencies": {
         "@types/bun": "latest"
