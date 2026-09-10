@@ -21,7 +21,7 @@ await templateRules({
     serverName: "Transonance",
     serverURL: "https://discord.gg/QhTDQsyeD6",
     accentColor: 0xdf585b,
-    headerImageURL: "https://i.imgur.com/KGyMpU5.png",
+    headerImageURL: "https://raw.githubusercontent.com/TransGG/assets/refs/heads/main/tp-server-rules-header.png",
     headerImageDescription: "A decorative header that says Server Rules",
     rules: [
         {

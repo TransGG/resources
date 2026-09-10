@@ -36,7 +36,7 @@ await templateRules({
     serverName: "TransPlace!",
     serverURL: "https://discord.gg/transplace",
     accentColor: 0xdf585b,
-    headerImageURL: "https://i.imgur.com/KGyMpU5.png",
+    headerImageURL: "https://raw.githubusercontent.com/TransGG/assets/refs/heads/main/tp-server-rules-header.png",
     headerImageDescription: "A decorative header that says Server Rules",
     rules: [
         {
@@ -464,7 +464,7 @@ await templateRules({
                 "the contact-staff channel",
                 "open the context menu on the user or message by right clicking on desktop or long pressing on mobile, then selecting Apps, then Badeline, then Report User or Report Message.",
             ),
-            mediaURL: "https://i.imgur.com/jxEcGvl.gif",
+            mediaURL: "https://raw.githubusercontent.com/TransGG/assets/refs/heads/main/how-to-report.gif",
             mediaDescription: "A GIF showing the reporting process explained above.",
         },
         {
