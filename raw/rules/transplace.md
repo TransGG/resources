@@ -18,7 +18,7 @@ This is a 13+ community. No NSFW, roleplaying, flirting, or partner-seeking. Be 
 
 ### Rule 3: Avoid sensitive and controversial topics and discourse.
 
-Avoid venting, politics, discussing substance use, controversial topics, phrases that target those with mental health challenges, links to X/Twitter, Meta, and TikTok, AI-generated content, and topics prohibited by Discord's Terms of Service.
+Avoid venting, politics, discussing substance use, controversial topics, phrases that target those with mental health challenges, links to X/Twitter, Meta, and TikTok, AI-generated content, and topics prohibited by Discord's Community Guidelines.
 
 ### Rule 4: Do not discuss DIY medical treatment.
 
@@ -34,7 +34,7 @@ Users talking with `[APP]` beside their name are using [PluralKit](https://plura
 
 ### Rule 7: Be mindful of triggers.
 
-Respect others' triggers. You can add trigger warnings by writing TW, followed by a short description of what the trigger is in a spoiler, followed by the content in a separate spoiler. To send a spoiler, put two vertical pipes on each side of the text. A list of common triggers is included in the details for this rule. Flashy media, excessively loud noises, and similar content must come with adequate warning, including in voice channels. Your triggers are also your responsibility to manage.
+Respect others' triggers. You can add trigger warnings by writing TW, followed by a short description of what the trigger is, followed by the content in a separate spoiler. To send a spoiler, put two vertical pipes on each side of the text. A list of common triggers is included in the details for this rule. Flashy media, excessively loud noises, and similar content must come with adequate warning, including in voice channels. Your triggers are also your responsibility to manage.
 
 ### Rule 8: Avoid mini-modding or arguing publicly.
 
@@ -92,11 +92,11 @@ Language and accessibility
 
 **Item A: Legal substances:** Brief mentions of legal substances like alcohol are acceptable in context, but refrain from engaging in conversations focused on substance use or bringing it up without context.
 
-**Item B: Comply with Terms of Service and international law** For the safety of the server, we must enforce Discord's Terms of Service. The following are disallowed:
+**Item B: Comply with Terms of Service, Community Guidelines, and international law** For the safety of the server, we must enforce Discord's Community Guidelines and Terms of Service. The following are disallowed:
 1. Distributing pirated content (by sharing links, streaming in voice channels, etc.),
 2. Discussing the use of pirated material,
 3. Talking about how to pirate content (including emulating games when it violates the publisher's Terms of Service), and
-4. Any other conversations that Terms of Service or international law may prohibit.
+4. Any other conversations that Community Guidelines or Terms of Service or international law may prohibit.
 
 **Item C: Avoid political conversation.** This is a safe space for people to get away from real-life situations. There are other communities for political discussion; this is not the place for political discussion or debate. You can read more about this policy in the politics channel.
 
@@ -148,7 +148,7 @@ Language and accessibility
 
 ### Rule 7: Be mindful of triggers.
 
-**Item A: Use proper trigger warnings.** A proper trigger warning declares that it's a trigger warning (TW), includes a brief mention of what the category is within a spoiler, and the content itself within a spoiler (e.g. TW, the word bugs in a spoiler, then some content about bugs in a separate spoiler.). Spoilers without a mention of what's spoiled are inadequate.
+**Item A: Use proper trigger warnings.** A proper trigger warning declares that it's a trigger warning (TW) and includes a brief mention of the triggering topic before the content itself within a spoiler (e.g. TW bugs, then some content about bugs in a spoiler). Spoilers without a mention of what's spoiled are inadequate. Don't spoiler the topic mention; if that alone is likely triggering, the topic should probably be avoided altogether.
 
 **Item B: Always provide trigger warnings for the following topics.** This list is provided at the end of the document.
 

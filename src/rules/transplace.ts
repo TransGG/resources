@@ -13,7 +13,7 @@ const TEMPLATE_RULE_7_DESCRIPTION = (triggerWarningInstructions: string) =>
     `Respect others' triggers. ${triggerWarningInstructions} A list of common triggers is included in the details for this rule. Flashy media, excessively loud noises, and similar content must come with adequate warning, including in voice channels. Your triggers are also your responsibility to manage.`;
 
 const TEMPLATE_RULE_7_SUBSECTION_A_DESCRIPTION = (example: string) =>
-    `A proper trigger warning declares that it's a trigger warning (TW), includes a brief mention of what the category is within a spoiler, and the content itself within a spoiler (e.g. ${example}). Spoilers without a mention of what's spoiled are inadequate.`;
+    `A proper trigger warning declares that it's a trigger warning (TW) and includes a brief mention of the triggering topic before the content itself within a spoiler (e.g. ${example}). Spoilers without a mention of what's spoiled are inadequate. Don't spoiler the topic mention; if that alone is likely triggering, the topic should probably be avoided altogether.`;
 
 const TEMPLATE_RULE_11_DESCRIPTION = (selfieChannelText: string) =>
     `Avoid conversing in media-sharing channels. Respect the audience of clubhouse channels. Selfies are only permitted in ${selfieChannelText} (access is granted upon meeting server activity requirements).`;
@@ -128,7 +128,7 @@ await templateRules({
             title: "Avoid sensitive and controversial topics and discourse.",
             threadName: "Restricted topics",
             description:
-                "Avoid venting, politics, discussing substance use, controversial topics, phrases that target those with mental health challenges, links to X/Twitter, Meta, and TikTok, AI-generated content, and topics prohibited by Discord's Terms of Service.",
+                "Avoid venting, politics, discussing substance use, controversial topics, phrases that target those with mental health challenges, links to X/Twitter, Meta, and TikTok, AI-generated content, and topics prohibited by Discord's Community Guidelines.",
             subsections: [
                 {
                     title: "Legal substances:",
@@ -136,9 +136,9 @@ await templateRules({
                         "Brief mentions of legal substances like alcohol are acceptable in context, but refrain from engaging in conversations focused on substance use or bringing it up without context.",
                 },
                 {
-                    title: "Comply with Terms of Service and international law",
+                    title: "Comply with Terms of Service, Community Guidelines, and international law",
                     description:
-                        "For the safety of the server, we must enforce Discord's Terms of Service. The following are disallowed:\n1. Distributing pirated content (by sharing links, streaming in voice channels, etc.),\n2. Discussing the use of pirated material,\n3. Talking about how to pirate content (including emulating games when it violates the publisher's Terms of Service), and\n4. Any other conversations that Terms of Service or international law may prohibit.",
+                        "For the safety of the server, we must enforce Discord's Community Guidelines and Terms of Service. The following are disallowed:\n1. Distributing pirated content (by sharing links, streaming in voice channels, etc.),\n2. Discussing the use of pirated material,\n3. Talking about how to pirate content (including emulating games when it violates the publisher's Terms of Service), and\n4. Any other conversations that Community Guidelines or Terms of Service or international law may prohibit.",
                 },
                 {
                     title: "Avoid political conversation.",
@@ -277,23 +277,23 @@ await templateRules({
             title: "Be mindful of triggers.",
             threadName: "Triggers",
             description: TEMPLATE_RULE_7_DESCRIPTION(
-                "You can add trigger warnings like so: `TW ||trigger||: ||content||` = TW ||trigger||: ||content||.",
+                "You can add trigger warnings like so: `TW trigger: ||content||` = TW trigger: ||content||.",
             ),
             screenreaderDescription: TEMPLATE_RULE_7_DESCRIPTION(
-                "You can add trigger warnings by writing TW, followed by a short description of what the trigger is in a spoiler, followed by the content in a separate spoiler. To send a spoiler, put two vertical pipes on each side of the text.",
+                "You can add trigger warnings by writing TW, followed by a short description of what the trigger is, followed by the content in a separate spoiler. To send a spoiler, put two vertical pipes on each side of the text.",
             ),
             subsections: [
                 {
                     title: "Use proper trigger warnings.",
-                    description: TEMPLATE_RULE_7_SUBSECTION_A_DESCRIPTION("TW ||bugs||: ||something about bugs||"),
+                    description: TEMPLATE_RULE_7_SUBSECTION_A_DESCRIPTION("TW bugs: ||something about bugs||"),
                     screenreaderDescription: TEMPLATE_RULE_7_SUBSECTION_A_DESCRIPTION(
-                        "TW, the word bugs in a spoiler, then some content about bugs in a separate spoiler.",
+                        "TW bugs, then some content about bugs in a spoiler",
                     ),
                 },
                 {
                     title: "Always provide trigger warnings for the following topics.",
                     description:
-                        "The following list contains several potentially triggering topics, so make sure you are in a good headspace before opening this list. These are common triggers, so minimize mentioning these topics and provide a warning if you feel it is appropriate to mention it at all. ||Bugs, depiction of injury (blood, burns, or bruises), death (animal or human), hospitalizations and institutionalizations (mental or general), wellness checks, in-depth conversation about weight and dieting, cults, and guns and weapons.||",
+                        "The following list contains several potentially triggering topics, so make sure you are in a good headspace before opening this list. These are common triggers, so minimize mentioning these topics and provide a warning if you feel it is appropriate to mention it at all. ||Bugs, depiction of injury (blood, burns, or bruises), death (animal or human), hospitalizations and institutionalizations (mental or general), images of needles, wellness checks, in-depth conversation about weight and dieting, cults, and guns and weapons.||",
                     screenreaderDescription: "This list is provided at the end of the document.",
                 },
                 {
