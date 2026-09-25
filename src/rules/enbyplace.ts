@@ -432,7 +432,7 @@ Discussing the recovery from bottom surgery is okay. Discussing sexual intercour
 
 Skip the following content if you would like to avoid the examples of triggering content for rule 7.
 
-The following topics are to be put under a trigger warning every time. Bugs, depiction of injury including blood, burns, and bruises, death of animals or humans, hospitalization or institutionalization both mental and general, wellness checks, in-depth conversation about weight and dieting, cults, and guns and weapons.
+The following topics are to be put under a trigger warning every time. Bugs, depiction of injury including blood, burns, and bruises, death of animals or humans, hospitalization or institutionalization both mental and general, images of needles, wellness checks, in-depth conversation about weight and dieting, cults, and guns and weapons.
 
 The following topics are forbidden. Any form of abuse or assault including general, sexual, domestic or intimiate partner violence, drug abuse, eating disorders, self-harm, suicide or suicidal thoughts, human trafficking, incest, and pedophilia.
 
